@@ -1,0 +1,76 @@
+body {
+    background-color:black;
+    color: #fff;
+    }
+    article {
+    background-color: rgb(44,43 ,43);
+    padding: 1.5rem;
+    border: 1px solid #fff; ;
+    }
+    #titulo_del_blog{
+    
+    }
+    
+    .resaltado{
+        
+    }
+    
+    nav>ul>li{
+        color: gold;
+        list-style: none;
+       
+    
+    }
+    nav>ul>li>a{
+        text-decoration: none;
+    }
+    
+    section>header>h1{
+        text-align: center;
+        font-size: 3rem;
+    
+    }
+    .ilustracion{
+        border: 4px solid #fff;
+        display: inline;
+    }
+    
+    .foot{
+        border: 2rem solid #fff;
+    }
+    
+    .ilustracion figcaption {
+        margin-top: 1rem;
+        margin-left: 1rem;
+        font-style: italic;
+    }
+    /* grid */
+    section {
+        
+        
+        /* despliégate como  grid */
+        display: grid;
+        /* Crea 12 columnas cada una de una fracción usando la función repeat*/
+        grid-template-columns: repeat(12, 1fr);
+        /* deja que las filas(renglones) ocupen el alto que necesitan */
+        grid-auto-rows: auto;
+        /* añade un espacio entre los elementos del grid de 3rem */
+        gap: 3rem;
+    }
+    
+    /* Termina grid */
+    
+    section>header {
+        /* esta sección se extenderá 12 columnas. */
+        grid-column: span 12;
+    }
+    section>main{
+        grid-column: span 8;
+    }
+    section>aside{
+        grid-column: span 4;
+    }
+    
+    section>footer{
+        grid-column: span 12;
+    }
