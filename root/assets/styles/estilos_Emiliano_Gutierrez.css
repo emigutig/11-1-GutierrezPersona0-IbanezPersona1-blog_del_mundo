@@ -12,16 +12,17 @@ border: 1px solid #fff; ;
 }
 
 .resaltado{
-    
-}
-
-nav>ul>li{
     color: gold;
+}
+
+nav>ul>li>a{
+    
     list-style: none;
-   
+
+   text-decoration: none;
 
 }
-nav>ul>li>a{
+nav>ul>li{
     text-decoration: none;
 }
 
@@ -74,3 +75,4 @@ section>aside{
 section>footer{
     grid-column: span 12;
 }
+
