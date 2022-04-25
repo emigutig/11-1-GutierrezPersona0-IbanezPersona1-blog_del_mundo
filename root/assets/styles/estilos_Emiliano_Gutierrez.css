@@ -16,13 +16,15 @@ border: 1px solid #fff; ;
 }
 
 nav>ul>li>a{
-    
+    text-decoration: none;
     list-style: none;
-   text-decoration-color: #fff;
+color: #fff;
 
 }
 nav>ul>li{
     text-decoration: none;
+    list-style: none;
+    color: #fff;
 }
 
 section>header>h1{
@@ -37,6 +39,7 @@ section>header>h1{
 
 .foot{
     border: 2rem solid #fff;
+
 }
 
 .ilustracion figcaption {
@@ -92,4 +95,31 @@ nav>ul{
     justify-content: space-around;
     border-bottom: 1px solid #fff;
     padding-bottom: 0.5rem;
+}
+
+article>header>hgroup{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+article>header>hgroup>h2{
+    display: -ms-flexbox;
+    align-items: center;
+}
+
+article>header>hgroup>h2>img{
+padding-right: 1rem;
+}
+
+#footer_blog{
+    display: flexbox;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
+font-size: 1.3rem;
+
 }
