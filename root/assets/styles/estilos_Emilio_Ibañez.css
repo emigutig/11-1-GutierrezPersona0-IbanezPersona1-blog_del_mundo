@@ -16,13 +16,15 @@ body {
     }
     
     nav>ul>li{
+        
        list-style: none;
-       text-decoration-color:#fff
+       color: #fff;
        
     
     }
     nav>ul>li>a{
-        text-decoration: underline;
+        text-decoration: none;
+        color: #fff;
     }
     
     section>header>h1{
@@ -37,7 +39,11 @@ body {
     
     .foot{
         border: 2rem solid #fff;
-    }
+        display: flex;
+        align-items: center;
+          justify-content: space-between;
+      }
+    
     
     .ilustracion figcaption {
         margin-top: 1rem;
@@ -90,3 +96,17 @@ body {
         border-bottom: 1px solid #fff;
         padding-bottom: 0.5rem;
     }
+
+      article>header>hgroup{    
+       
+       display: flex;
+        align-items: center;
+          justify-content: space-between;
+      }
+
+      article>header>hgroup>h2{
+          display: flexbox;
+      }
+      article>header>hgroup>h2>img{
+        padding-right: 1rem;
+      }
