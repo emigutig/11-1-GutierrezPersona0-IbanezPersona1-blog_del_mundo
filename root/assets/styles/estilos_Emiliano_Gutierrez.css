@@ -39,6 +39,15 @@ section>header>h1{
 
 .foot{
     border: 2rem solid #fff;
+    display: flex;
+    align-items: center;
+      justify-content: space-between;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    font-size: 1.3rem;
+
 
 }
 
@@ -113,4 +122,25 @@ padding-right: 1rem;
 }
 
 
+.foot div:nth-child(2){
+    font-size: 0.9rem;
+}
 
+aside>div{
+    display: flex;
+    align-items: center;
+    font-size:1.3rem ;
+border: dashed;
+
+}
+
+aside>div:nth-child(odd){
+   background-color: rgb(44,43 ,43);
+}  
+
+
+aside div img {
+    background-color: #fff;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
