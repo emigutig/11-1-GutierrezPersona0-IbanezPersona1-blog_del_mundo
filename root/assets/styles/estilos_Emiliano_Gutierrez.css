@@ -144,3 +144,7 @@ aside div img {
     padding: 0.5rem;
     border-radius: 50%;
 }
+
+aside>div>span>{
+    padding-right: 0.5rem;
+}
